@@ -1,0 +1,13 @@
+Ans )-  The key difference between the flex and css grid layout models lies in their layout strategies and how they handle the arrangement of element.
+
+Flexbox  : - is a primarily designed for and dimensional layout focusing and distribution space and aligning items along a single axis (either horizontal or vertically). It is best suited for layouts where you have a row or column or item such as navigation menu card based design or centering content within a container.
+
+Css grid : -  is a designed for two dimensional layout allowing you to define both rows and columns it creates a grid of cells where content can be placed in an excel or span across multiple cells css grid is ideal for complex grid based design like in layout form and any layout where content needs to be placed in a precise grid structure.
+
+Choosing between Flex and css grid depend on your specific layout requirements.
+
+You might choose Flexbox when you need to arrange item along a single axis for example when creating navigation bar header footer layout or aligning item within a container flexbox is a great for responsive designs where item can vary in size.
+
+You might choose css grid when you need to create more complex two dimensional layout with rows and columns it is a particularly used when you have a grid css like structure such as galleries form and multiple field arena design that requires precise control over both rows and columns.
+
+In some cases you may even combine both Flex and css greed within a single layout to leverage the strength of each model for different part of your web page.

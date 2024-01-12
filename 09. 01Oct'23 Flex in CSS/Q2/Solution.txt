@@ -1,0 +1,17 @@
+Ans ) -  
+
+1. JUSTIFY-CONTENT :-  The justify content property in flexbox is used to control the alignment of flex item along the main axis of the flex container. It determines how the extra Space or insufficient space along the main axis is distributed there are several values for justify-content, including Flex-start, Flex-end and centre space-between space-evenly and space-around.
+For example, If you set justify-content:center; flex item will be aligned to the start the last item to the end and the remaining space will be distributed evenly between the items
+
+2 ALIGN-ITEM: The align-item property control the alignment of flexitem along the cross axis of the flex container it specifies how items are positioned within their container along the axis. It accepts values such as flex-start, flex-end, and center, baseline, and stretch.
+For instance, if you set align-item: center; flex-item will be vertically centered within the container. If you set align-item: stretch; item will expand to fill the entire cross axis space of the container ensuring they have the same height.
+
+3. GAP : The gap property is used to define the space between Flexitem in board direction both along the main axis and the cross axis it is often applied to the flex container itself it simplifies spacing and creates content gaps between item without needing to apply margins to individual items.
+For example if you set gap: 20px; there will be a 20 pixel gap between adjacent flax item in the both horizontal and vertical direction improving the overall spacing and alignment of item within the container.
+
+4 FLEX-DIRECTION: The flex direction property determine the direction in which flex item are placed within the flex container it defines the main axis and concurrently the layout flow it can have values such as rows, row reverse, column, or column reverse.
+
+5 FLEX-WRAP: The flex-wrap property control whether flex-item are allowed to vary on to multiple lines ( new rows or column) within the container when they don't fit along the main axis it accepts values like nowrap, wrap, and wrap-reverse.
+For instance if you set flex-wrap:wrap; flexitem will varap to the next line when there is no not enough space on their current line creating a multi line layout flexor app is useful for accommodating various screen sizes and orientation allowing items to adapt to difference view port and preventing content for getting cut off.
+
+These property play a critical role in creating well is textured and visually pleasing layout in Flexbox allowing you to control the positioning alignment the spacing of the flex item within a container.

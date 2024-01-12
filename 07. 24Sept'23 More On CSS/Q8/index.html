@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Css L2 Q8 </title>
+    <style>
+        body {
+    background-color: #030303;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbarDiv {
+    background-color: lightslategray;
+    height: 50px;
+}
+
+#navbarDiv ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#navbarDiv ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#navbarDiv ul li:hover {
+    background-color: black;
+    cursor: pointer;
+    align-items: start;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.list .list--container {
+    border: 2px solid red;
+    padding: 10px 50px;
+}
+
+.list .list--container .list--title {
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.list .list--container .list--li ol li {
+    list-style: lower-roman;
+}
+
+.list .list--container .list--li ol li:hover {
+    color: orange;
+    cursor: pointer;
+}
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar" id="navbarDiv">
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contact</li>
+                <li>Blog</li>
+                <li>Login</li>
+            </ul>
+        </div>
+    </nav>
+<div class="list">
+    <div class="list--container">
+        <div class="list--title">
+            <p>Requirement</p>
+        </div>
+        <div class="list--li">
+            <ol>
+                <li>System With minimum i3 processor or better.</li>
+                <li>At least 4 GB of RAM.</li>
+                <li>Working internet connection.</li>
+                <li>Dedication to learn.</li>
+            </ol>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Css L2 Q3 </title>
+
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+    <style>
+        body {
+    background-color: #030303;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbarDiv {
+    background-color: lightslategray;
+    height: 50px;
+}
+
+#navbarDiv ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#navbarDiv ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#navbarDiv ul li:hover {
+    background-color: black;
+    cursor: pointer;
+    align-items: start;
+}
+
+#li1 {
+    border: 2px solid red;
+}
+
+#li2 {
+    border: 2px dotted orange;
+}
+
+#li3 {
+    border: 2px dashed pink;
+}
+
+#li4 {
+    border: 2px double greenyellow;
+}
+
+#li5 {
+    border: 2px orange;
+    border-style: dotted dashed solid double;
+}
+
+.poster--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: yellow;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+    border: 2px solid red;
+}
+
+.poster .poster--image img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    border: 2px solid black;
+}
+
+.poster .poster--text {
+    padding: 0;
+    margin: 0;
+}
+
+.poster .poster--text .poster--text--title {
+    font-weight: bold;
+}
+
+
+
+    </style>        
+</head>
+
+<body>
+<nav>
+    <div class="navbar" id="navbarDiv">
+        <ul>
+            <li id="li1">Home</li>
+            <li id="li2">About Us</li>
+            <li id="li3">Contact</li>
+            <li id="li4">Blog</li>
+            <li id="li5">Login</li>
+        </ul>
+    </div>
+</nav>
+<div class="poster--container">
+    <div class="poster">
+        <div class="poster--image">
+            <img alt="course Image"
+                 src="https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        </div>
+        <div class="poster--text">
+            <p><span class="poster--text--title">Course Name:</span>
+                <span class="poster--text--content"> Fun with Full Stack Online
+            </span>
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

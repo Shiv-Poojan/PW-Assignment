@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Css L2 Q2 </title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <style>
+    body {
+    background-color: #030303;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbarDiv {
+    background-color: lightslategray;
+    height: 50px;
+}
+
+#navbarDiv ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#navbarDiv ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#navbarDiv ul li:hover {
+    background-color: black;
+    cursor: pointer;
+    align-items: start;
+}
+
+.poster--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: yellow;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+    border: 2px solid red;
+}
+
+.poster .poster--image img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    border: 2px solid black;
+}
+
+.poster .poster--text {
+    padding: 0;
+    margin: 0;
+}
+
+.poster .poster--text .poster--text--title {
+    font-weight: bold;
+}
+
+
+
+   </style>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar" id="navbarDiv">
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contact</li>
+                <li>Blog</li>
+                <li>Login</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="poster--container">
+    <div class="poster">
+        <div class="poster--image">
+            <img src="https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="course Image">
+        </div>
+        <div class="poster--text">
+            <p><span class="poster--text--title">Course Name:</span>
+            <span class="poster--text--content"> Fun with Full Stack Online
+            </span>
+            </p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
